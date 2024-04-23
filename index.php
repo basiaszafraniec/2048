@@ -12,32 +12,31 @@
             background-color: beige;
             display: flex;
             align-items: center;
+            justify-content: center;
             height: 100vh;
             flex-direction: column;
         }
         .header{
-            height: 150px;
-            width: 450px;
             background-color: white;
             margin-top: 20px;
             margin-bottom: 20px;
+            border-radius: 10px;
         }
         .container{
             /* height: 450px;
             width: 450px; */
             background-color: white;
             display: grid;
-            grid-template-columns: repeat(4,1fr);
+            grid-template-columns: repeat(4,25%);
+            grid-template-rows: repeat(4,25%);
+            
             justify-items: center;
             align-content: center;
-            border-radius: 10px;
+            border-radius: 5%;
         }
         .tile{
-            /* width: 100px;
-            height: 100px; */
             background-color: pink;
-            /* margin: 10px; */
-            border-radius: 5px;
+            border-radius: 10%;
             display: flex;
             justify-content: center;
             align-items: center;
