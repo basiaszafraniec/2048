@@ -18,13 +18,10 @@
         }
         .header{
             background-color: white;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            border-radius: 10px;
+            margin-bottom: 5vh;
+            border-radius: 2vh;
         }
         .container{
-            /* height: 450px;
-            width: 450px; */
             background-color: white;
             display: grid;
             grid-template-columns: repeat(4,25%);
@@ -32,10 +29,16 @@
             
             justify-items: center;
             align-content: center;
-            border-radius: 5%;
+            border-radius: 2vh;
+        }
+        .box {
+            height: 100%;
+            width: 100%;
         }
         .tile{
             background-color: pink;
+            height: 100%;
+            width: 100%;
             border-radius: 10%;
             display: flex;
             justify-content: center;
