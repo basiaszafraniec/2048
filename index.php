@@ -34,11 +34,14 @@
         .box {
             height: 100%;
             width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;        
         }
         .tile{
-            background-color: pink;
-            height: 100%;
-            width: 100%;
+            background-color: orange;
+            height: 95%;
+            width: 95%;
             border-radius: 10%;
             display: flex;
             justify-content: center;
